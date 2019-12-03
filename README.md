@@ -2,6 +2,14 @@
 
 Forest Defender is a system built for the Microsoft Azure Sphere that performs continuous audio recording and classification in order to detect wildfires or illegal logging and notify law enforcement in real-time. It connects with Azure Cloud Services to send notifications. Read [this blog post](https://www.element14.com/community/groups/azuresphere/blog/2019/12/01/forest-defender-protecting-our-forests-with-machine-learning) for more info on how the project developed.
 
+## Forest Defender App
+
+The Forest Defender App allows viewing a list of all devices attached to the associated IoT Hub, testing a single device, and sending some configuration updates.
+
+<img src="Resources/screenshots/DevicesPage.png"  width="31%" style="margin-right: 1%; margin-left: 1%;">
+<img src="Resources/screenshots/TestPage.png" width="31%" style="margin-right: 1%; margin-left: 1%;">
+<img src="Resources/screenshots/ConfigurationPage.png" width="31%" style="margin-right: 1%; margin-left: 1%;">
+
 ## Setup and Running
 
 This repository consists of two main parts, the embedded software for the Azure Sphere, and the mobile app for interacting with the system.
